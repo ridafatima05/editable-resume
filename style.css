@@ -1,0 +1,185 @@
+
+body {
+    background-color: whitesmoke; 
+    font-family: serif; 
+    color: #333; 
+    padding: 20px;
+}
+
+h1, h3 {
+    color: #1c2d56;  
+    text-transform: capitalize;
+}
+
+p {
+    color: #0a4041;
+}
+
+.form-group label {
+    color: #4f4f4f;
+}
+
+.form-control {
+    background-color: #e2dffd;
+    color: #333;
+    border: 1px solid #d1d1d1;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 15px; 
+}
+
+.form-control:focus {
+    border: #1c2d56;  
+    box-shadow: 0 0 5px rgba(28, 45, 86, 0.3);  
+}
+
+
+button {
+    all: unset;  
+    background-color: #1c2d56; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: #1c2d56;  
+    transform: scale(1.05); 
+}
+
+button:disabled {
+    background-color: #d3d3d3;  
+    cursor: not-allowed;
+}
+
+
+.container {
+    background-color: rgb(210, 210, 240); 
+    padding: 30px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+    border-radius: 8px;
+    max-width: 700px; 
+    margin: 0 auto; 
+}
+
+
+.text-center {
+    color: #1c2d56;
+    font-size: 1.2em;
+}
+
+.text-secondary {
+    color: #999999;
+}
+
+/* Resume Section */
+.resume-section {
+    margin-bottom: 20px;
+}
+
+.resume-section h3 {
+    margin-bottom: 10px;
+}
+
+.social-media-links input {
+    margin-bottom: 10px;
+}
+
+/* Resume Output Styling */
+.resume-container {
+    margin-top: 20px;
+    padding: 30px;  
+    border: 2px solid #1c2d56;  
+    border-radius: 10px;  
+    background-color: #ffffff;  
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);  
+    max-width: 800px;  
+    margin-left: auto;  
+    margin-right: auto;  
+}
+
+.resume-container h1 {
+    text-align: center;
+    color: #1c2d56;  
+    margin-bottom: 20px;
+    font-weight: bold;  
+    letter-spacing: 1px;  
+}
+
+.resume-container p {
+    font-size: 1.2em;  
+    line-height: 1.6;  
+    color: #333;
+    margin-bottom: 15px;  
+}
+
+.resume-container h2 {
+    font-size: 1.1em;  
+    font-weight: 600;  
+    color: #1c2d56;  
+    margin-top: 25px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #1c2d56;  
+    padding-bottom: 5px;
+}
+
+.resume-container a {
+    color: #1c2d56;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.resume-container a:hover {
+    text-decoration: underline;
+    color: #0a2a3b;  
+}
+
+
+.resume-section {
+    margin-bottom: 25px;  
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ccc;  
+}
+
+
+.resume-container ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    color: #333;
+    font-size: 1.1em;
+}
+
+.resume-container li {
+    margin-bottom: 10px;  
+}
+
+
+.resume-container .contact-info {
+    font-size: 1.1em;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .resume-container h1 {
+        font-size: 1.8em;
+    }
+
+    .resume-container p {
+        font-size: 1.1em;
+    }
+}
